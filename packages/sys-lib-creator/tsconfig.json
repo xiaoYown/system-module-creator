@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "outDir": "lib",
+    "strict": true,
+    "pretty": true,
+    "declaration": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "lib": ["es2017"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

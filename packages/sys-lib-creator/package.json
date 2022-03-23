@@ -1,0 +1,38 @@
+{
+  "name": "@xv-town/sys-lib-creator",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xiaoYown <qzy09101018@sina.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@xv-town/sys-lib-builder": "^0.0.0",
+    "axios": "^0.26.0",
+    "commander": "^8.3.0",
+    "download": "^8.0.0",
+    "shelljs": "^0.8.5",
+    "tar": "^6.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.4",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}

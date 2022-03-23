@@ -1,0 +1,17 @@
+{
+  "verbose": true,
+  "ext": "ts js",
+  "watch": ["src"],
+  "ignore": ["node_modules", "bin"],
+  "exec": "node -r ts-node/register --inspect=13005 src/app.ts 12000",
+  "env": {
+    "PORT": 13000,
+    "NODE_ENV": "development",
+    "RUNTIME_ENV": "dev",
+    "DEBUG": "express:*,config,framework*,editor:*",
+    "TS_NODE_CACHE": false,
+    "TS_NODE_TYPE_CHECK": true,
+    "TS_NODE_FILES": true,
+    "TS_NODE_PROJECT": "./tsconfig.json"
+  }
+}

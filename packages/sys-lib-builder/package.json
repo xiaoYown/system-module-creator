@@ -1,0 +1,34 @@
+{
+  "name": "@xv-town/sys-lib-builder",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xiaoYown <qzy09101018@sina.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "chalk": "^2.4.2",
+    "colored-progress-bar-webpack-plugin": "^1.2.4",
+    "css-loader": "^6.2.0",
+    "simple-progress-webpack-plugin": "^2.0.0",
+    "systemjs-webpack-interop": "^2.3.7",
+    "webpack": "^5.46.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
